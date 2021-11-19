@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "fonte1";
+  src: url(/Game\ Of\ Squids.otf);
+}
+
+@font-face {
+  font-family: "fonte2";
+  src: url(/Optimus\ Bold.otf);
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: black;
+  display: flex;
+}
+
+h1 {
+  font-weight: 450;
+  font-size: 2rem;
+  font-family: "fonte1";
+}
+
+.container {
+  box-sizing: border-box;
+  background: url(/backgorund.png) no-repeat;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 450;
+  font-family: "fonte2";
+}
+
+a {
+  text-decoration: none;
+}
+
+.instagran {
+  list-style-image: url(/Insta.png);
+}
+.twitter {
+  list-style-image: url(/Twitter.png);
+}
+.youtube {
+  list-style-image: url(/Youtube.png);
+}
